@@ -13,7 +13,8 @@ import java.util.List;
 public class AppConfig {
 
     @Bean
-    List<Student> getDatabase(){
-        return new ArrayList<>();
+    public List<Student> getDatabase(){
+        List<Student> database = new ArrayList<>();
+        return database;
     }
 }
