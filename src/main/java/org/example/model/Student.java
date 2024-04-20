@@ -11,6 +11,9 @@ public class Student {
     private String studentName;
     private Address address;
 
+    public Student(){
+
+    }
     public Integer getStudentId() {
         return studentId;
     }
